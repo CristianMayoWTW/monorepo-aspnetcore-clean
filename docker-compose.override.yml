@@ -1,0 +1,10 @@
+version: '3.4'
+
+name: aspnetcore-poc-local
+services:
+  aspnetcore.poc.webapi:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+  aspnetcore.poc.webmvc:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development

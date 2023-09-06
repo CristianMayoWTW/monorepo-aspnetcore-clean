@@ -1,0 +1,22 @@
+version: '3.4'
+
+name: aspnetcore-poc-local
+services:
+  aspnetcore.poc.webapi:
+    image: aspnetcore-poc-webapi
+    build:
+      context: .
+      dockerfile: src/AspNetCore.POC.WebApi/Dockerfile
+    ports:
+      - "8888:80"
+
+  aspnetcore.poc.webmvc:
+    image: aspnetcore-poc-webmvc
+    build:
+      context: .
+      dockerfile: src/AspNetCore.POC.WebMvc/Dockerfile
+    ports:
+      - "8889:80"
+    depends_on:
+      - aspnetcore.poc.webapi
+

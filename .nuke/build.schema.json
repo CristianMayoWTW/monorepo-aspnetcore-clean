@@ -72,8 +72,10 @@
           "items": {
             "type": "string",
             "enum": [
+              "BuildDockerImage",
               "Clean",
               "Compile",
+              "Publish",
               "Restore"
             ]
           }
@@ -88,8 +90,10 @@
           "items": {
             "type": "string",
             "enum": [
+              "BuildDockerImage",
               "Clean",
               "Compile",
+              "Publish",
               "Restore"
             ]
           }

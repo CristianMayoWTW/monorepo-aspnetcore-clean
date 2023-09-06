@@ -17,13 +17,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.POC.UnitTests", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.POC.IntegrationTests", "tests\AspNetCore.POC.IntegrationTests\AspNetCore.POC.IntegrationTests.csproj", "{9635FFBC-BF1A-4A4B-AEFF-C11BC5461BD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.POC.Domain", "src\AspNetCore.POC.Domain\AspNetCore.POC.Domain.csproj", "{9B348D19-769E-4B4C-8DF9-866B53E03758}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.POC.Domain", "src\AspNetCore.POC.Domain\AspNetCore.POC.Domain.csproj", "{9B348D19-769E-4B4C-8DF9-866B53E03758}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.POC.Infrastructure", "src\AspNetCore.POC.Infrastructure\AspNetCore.POC.Infrastructure.csproj", "{CF9390C8-483C-4AF0-989B-18224F80ABDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.POC.Infrastructure", "src\AspNetCore.POC.Infrastructure\AspNetCore.POC.Infrastructure.csproj", "{CF9390C8-483C-4AF0-989B-18224F80ABDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.POC.Application", "src\AspNetCore.POC.Application\AspNetCore.POC.Application.csproj", "{BEA00852-04E5-4F4B-98CB-C9E3741D574D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.POC.Application", "src\AspNetCore.POC.Application\AspNetCore.POC.Application.csproj", "{BEA00852-04E5-4F4B-98CB-C9E3741D574D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.POC.Presentation", "src\AspNetCore.POC.Presentation\AspNetCore.POC.Presentation.csproj", "{E0E326BA-D98B-4D6A-AA2A-415770FF0AAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.POC.Presentation", "src\AspNetCore.POC.Presentation\AspNetCore.POC.Presentation.csproj", "{E0E326BA-D98B-4D6A-AA2A-415770FF0AAB}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{3C3C9AE8-1666-4CB5-A39D-EF5B2297BC80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.POC.WebMvc", "src\AspNetCore.POC.WebMvc\AspNetCore.POC.WebMvc.csproj", "{B51D0B37-E27B-43D5-8EDB-AE4E67360FFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +65,14 @@ Global
 		{E0E326BA-D98B-4D6A-AA2A-415770FF0AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0E326BA-D98B-4D6A-AA2A-415770FF0AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0E326BA-D98B-4D6A-AA2A-415770FF0AAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C3C9AE8-1666-4CB5-A39D-EF5B2297BC80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C3C9AE8-1666-4CB5-A39D-EF5B2297BC80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C3C9AE8-1666-4CB5-A39D-EF5B2297BC80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C3C9AE8-1666-4CB5-A39D-EF5B2297BC80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B51D0B37-E27B-43D5-8EDB-AE4E67360FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B51D0B37-E27B-43D5-8EDB-AE4E67360FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B51D0B37-E27B-43D5-8EDB-AE4E67360FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B51D0B37-E27B-43D5-8EDB-AE4E67360FFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +86,7 @@ Global
 		{CF9390C8-483C-4AF0-989B-18224F80ABDB} = {65D63DD0-75B0-400A-8616-AEF1E42E8789}
 		{BEA00852-04E5-4F4B-98CB-C9E3741D574D} = {65D63DD0-75B0-400A-8616-AEF1E42E8789}
 		{E0E326BA-D98B-4D6A-AA2A-415770FF0AAB} = {65D63DD0-75B0-400A-8616-AEF1E42E8789}
+		{B51D0B37-E27B-43D5-8EDB-AE4E67360FFD} = {65D63DD0-75B0-400A-8616-AEF1E42E8789}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CE76F13E-583B-4D01-A669-66048BED44BC}
